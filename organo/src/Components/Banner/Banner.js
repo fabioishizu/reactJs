@@ -1,9 +1,12 @@
 import React from 'react'
+import './Banner.css'
 
-export default function Banner(){
+export const Banner = () => {
     return(
         <>
-            <img src="/Images/banner.png" alt="Imagem do banner inicial"/>
+            <header className="banner">
+                <img src="/Images/banner.png" alt="Imagem do banner inicial"/>
+            </header>
         </>
     )
 }
